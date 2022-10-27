@@ -16,8 +16,8 @@ const Navbar = () => {
       <Link to ='/'> Fin N Min </Link>
       <ul className={open === true?'nav-menu-active':'nav-menu'}>
         <li> <Link to ='/'> Home </Link></li>
-        <li> <Link to ='/about'> About Us </Link></li>
-        <li> <Link to ='/explore'> Explore </Link></li>
+        <li> <Link to ='/project'> Projects</Link></li>
+        <li> <Link to ='/about'> About </Link></li>
         <li> <Link to ='/contact'> Contact Us</Link></li>
       </ul>
 

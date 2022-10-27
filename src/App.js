@@ -1,10 +1,9 @@
 import './App.css';
 import {BrowserRouter as Router,Routes, Route} from 'react-router-dom';
-import Navbar from './Components/Navbar';
 import Home from './Routes/Home';
-import About from './Routes/About';
+import Projects from './Routes/Projects';
 import Contact from './Routes/Contact';
-import Explore from './Routes/Explore';
+import About from './Routes/About';
 
 function App() {
   return (
@@ -12,8 +11,8 @@ function App() {
       <Router>
         <Routes>
           <Route path ='/'  element={<Home/>} />
+          <Route path ='/project'  element={<Projects/>} />
           <Route path ='/about'  element={<About/>} />
-          <Route path ='/explore'  element={<Explore/>} />
           <Route path ='/contact'  element={<Contact/>} />
         </Routes>
       </Router>
