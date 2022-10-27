@@ -208,16 +208,16 @@
 }
 .h-image::before{
     content: "";
-    background-image: url('../images/project.jpeg');
+    background-image: url('../images/background2.jpg');
     background-size: cover;
     background-position: center top;
-    height: 80%;
+    height: 70%;
     width: 100%;
     position:absolute;
     opacity: 8;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: -3;
 }
 .h-heading{
     width: 100%;
@@ -229,19 +229,21 @@
 }
 .h-image h1{
     font-size: 2.4rem;
-    color: white;
+    
     font-weight: bold;
 }
 .h-image p{
     font-size: 1.4rem;
     text-align: center;
-    color: white;
+ 
     font-weight: bold;
+    margin-top: 2%;
+    width: 70%;
 }
 @media screen and (max-width:640px) {
     .h-image h1{
         font-size: 2rem;
-        color: white;
+        
         font-weight: bold;
     }
    
@@ -296,4 +298,30 @@
     .project-card{
         margin-left: 2rem;  
     }
+}
+
+
+/*      work- experince */
+
+.link-header{
+    width: 100%;
+    height: 100%;
+    margin-left: 4rem;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.btn-light-wrk{
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px 32px;
+    font-size: 1.3rem;
+    background: transparent;
+    
+     
+}
+.experience{
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
 }
