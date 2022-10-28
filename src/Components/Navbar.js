@@ -13,7 +13,7 @@ const Navbar = () => {
    console.log(open);
   return (
     <div className='header'>
-      <Link to ='/'> Fin N Min </Link>
+      <Link to ='/'> <h1>SaranKumar Prakash </h1></Link>
       <ul className={open === true?'nav-menu-active':'nav-menu'}>
         <li> <Link to ='/'> Home </Link></li>
         <li> <Link to ='/project'> Projects</Link></li>

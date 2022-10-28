@@ -51,10 +51,10 @@ const Footer = () => {
 
                 </div>
                 <div className='right'>
-                    <h4 className='footer-text'>About the Company </h4>
+                    {/* <h4 className='footer-text'>About the Company </h4>
                     <div>
                     <p className='footer-text'> lorem text </p>
-                    </div>
+                    </div> */}
 
                     <div className='social'>
                         <FacebookIcon sx={30} style={{ color: 'white' }} />

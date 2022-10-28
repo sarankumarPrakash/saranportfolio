@@ -10,8 +10,8 @@ const Projects = () => {
     <div>
       <Navbar />
       <CommonBackground
-        heading="Projects"
-        text="Some of my projects "
+        heading="Some of my Recents projects"
+        // text="Some of my Recents projects "
       />
       <Work/>
       <Footer />

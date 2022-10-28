@@ -11,9 +11,8 @@ const About = () => {
     <div>
       <Navbar/>
       <CommonBackground 
-      heading="About Me" 
-      text ="Innovative task driven professional with 1 + experience in web development across diverse Industries. Equipped with record success in providing the technical need of the companies. Proficient in clearing bugs, troubleshooting the small (or)
-       complex issues and implementing few feature based on client's feedback."/>
+      heading="Hii ..  Im Sarankumar Prakash" 
+      />
        <WorkExperinece/>
       <Footer/>
 

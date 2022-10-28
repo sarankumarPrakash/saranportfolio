@@ -5,7 +5,6 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea, CardActions } from '@mui/material';
 import Image from '../images/images.webp'
-
 import { Link } from 'react-router-dom';
 
 const Work = (props) => {
