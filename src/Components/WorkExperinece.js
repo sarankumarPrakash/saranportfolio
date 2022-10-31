@@ -60,9 +60,9 @@ const WorkExperinece = () => {
                 </Timeline>
                </Paper> 
             </div>
-            <Paper elevation={24} className="paper2">
+            <Paper elevation={24} className="paper">
             <div className='resume'>
-                <h4 className='res-content'> Hey are you looking for designer to grow and build your business.
+                <h4 className='work-text'> Hey are you looking for designer to grow and build your business.
                  why can't we connect ?</h4>
                  <div className='download'>
                  <Link className='resume-cv'>   Download CV <DownloadIcon /> </Link>
