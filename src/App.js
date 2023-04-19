@@ -1,23 +1,24 @@
-import './App.css';
-import {BrowserRouter as Router,Routes, Route} from 'react-router-dom';
-import Home from './Routes/Home';
-import Projects from './Routes/Projects';
-import Contact from './Routes/Contact';
-import About from './Routes/About';
-
-function App() {
-  return (
-    <div className="App">
-      <Router>
-        <Routes>
-          <Route path ='/'  element={<Home/>} />
-          <Route path ='/project'  element={<Projects/>} />
-          <Route path ='/about'  element={<About/>} />
-          <Route path ='/contact'  element={<Contact/>} />
-        </Routes>
-      </Router>
-    </div>
-  );
+import React, { Component } from 'react';
+import Header from './components/Header';
+import About from './components/About';
+import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
+import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
+import resumeData from './resumeData';
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Header resumeData={resumeData}/>
+        <About resumeData={resumeData}/>
+        <Resume resumeData={resumeData}/>
+        <Portfolio resumeData={resumeData}/>
+        <ContactUs resumeData={resumeData}/>
+        <Footer resumeData={resumeData}/>
+      </div>
+    );
+  }
 }
 
 export default App;
