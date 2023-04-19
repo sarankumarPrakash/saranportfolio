@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/saranportfolio/static/css/main.4152c3d3.css",
+    "main.js": "/saranportfolio/static/js/main.bd453be7.js",
+    "index.html": "/saranportfolio/index.html",
+    "main.4152c3d3.css.map": "/saranportfolio/static/css/main.4152c3d3.css.map",
+    "main.bd453be7.js.map": "/saranportfolio/static/js/main.bd453be7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4152c3d3.css",
+    "static/js/main.bd453be7.js"
+  ]
+}
