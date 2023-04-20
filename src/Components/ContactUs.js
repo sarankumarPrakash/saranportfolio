@@ -44,7 +44,7 @@ export default class ContactUs extends Component {
             </div>
             <div style={{width:"100%",display:'flex'}}>
             <span><button class="btn">Send</button></span>
-            <span style={{marginLeft:'15%'}} onClick={this.handleDownload}><button >Download PDF</button></span> 
+            <span style={{marginLeft:'15%'}} onClick={this.handleDownload}><button >Download Resume</button></span> 
             </div>
 
           </div>
